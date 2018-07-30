@@ -1,199 +1,392 @@
-
 # ONEHOMEONEDREAM
-
 <!DOCTYPE html>
+
 <html>
 
 
 
+
+
+
+
 <head>
+
 <title>One Home One Dream</title>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <script src="scroll-down.js"></script>
+
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
  <link rel="stylesheet" href="scroll-down.css">
+
+
 
 </head>
 
+
+
 <style>
+
 body {font-family: "Lato", sans-serif}
+
 .mySlides {display: none}
+
 </style>
+
 <body>
 
+
+
 <!-- Navbar -->
+
 <div class="w3-top">
+
   <div class="w3-bar w3-black w3-card">
+
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+
     <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+
     <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MISSION STATEMENT</a>
+
     <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">IMMIGRATION</a>
+
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WHAT YOU CAN DO TO HELP</a>
+
     <!--draw panel contact-->
+
     <div class="dropdown">
+
       <button onclick="myFunction()" class="dropbtn">Reference</button>
+
       <div id="myDropdown" class="dropdown-content">
+
         <a href="#">Link 1</a>
+
         <a href="#">Link 2</a>
+
         <a href="#">Link 3</a>
+
       </div>
+
     <div class="w3-dropdown-hover w3-hide-small">
+
       <button class="w3-padding-large w3-button" title="More">DACA <i class="fa fa-caret-down"></i></button>
+
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
+
         <a href="#" class="w3-bar-item w3-button">Requirements</a>
+
         <a href="#" class="w3-bar-item w3-button">Trump Video</a>
+
         <a href="#" class="w3-bar-item w3-button">Media</a>
+
         <!-- We need an extra tab!!! and Resort it -->
+
       </div>
+
     </div>
+
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+
   </div>
-</div>
 
 </div>
+
+
+
+</div>
+
+
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+
   <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DACA</a>
+
   <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">IMMIGRATION</a>
+
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOMELESSNESS</a>
+
   <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WHAT YOU CAN DO TO HELP</a>
+
 </div>
 
+
+
 <!-- Page content -->
+
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
+
+
   <!-- Automatic Slideshow Images -->
+
   <div class="mySlides w3-display-container w3-center">
+
     <img src="https://images.latintimes.com/sites/latintimes.com/files/styles/picture_this/public/2014/07/17/child-migrant-crisis-5.jpg" style="width:100%">
+
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+
       <!-- <h3>Los Angeles</h3> -->
+
       <!-- <p><b>We had the best time playing at Venice Beach!</b></p> -->
+
     </div>
+
   </div>
+
   <div class="mySlides w3-display-container w3-center">
+
     <img src="https://cdn.vox-cdn.com/thumbor/zocsA3A5U6nytgZIv5lTbwSDgsc=/0x0:5472x3648/1200x800/filters:focal(2589x1115:3463x1989)/cdn.vox-cdn.com/uploads/chorus_image/image/59884389/650502086.jpg.0.jpg" style="width:100%">
+
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+
       <!-- <h3>New York</h3>
+
       <p><b>The atmosphere in New York is lorem ipsum.</b></p> -->
+
     </div>
+
   </div>
+
   <div class="mySlides w3-display-container w3-center">
+
     <img src="https://img.apmcdn.org/ea0f3d1e7d437ebe94477cc5fe82135331108a05/uncropped/cbbccb-20180710-immigration-protest.jpg" style="width:100%">
+
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+
       <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+
       <!-- <h3>Chicago</h3>
+
       <p><b>Thank you, Chicago - A night we won't forget.</b></p> -->
+
     </div>
+
   </div>
+
   <!-- button begins here-->
+
   <section class="company-heading intro-type" id="parallax-one">
+
     <div class="container">
+
       <div class="row product-title-info">
+
         <div class="col-md-12">
 
+
+
           <a class="ct-btn-scroll ct-js-btn-scroll" href="#section2"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="parallax" id="parallax-cta" style="background-image:url(https://www.solodev.com/assets/anchor/company-hero2.jpg);"></div>
+
   </section>
+
   <div class="main">
+
     <section id="section2">
+
       <div class="container jumbo">
+
         <div class="jumbotron">
+
            <!-- <h2>Let Big Data Change the Game</h2>
+
           <p>WebCorpCo is all about making sure your marketing stack is in alignment with your company as well as the customers you serve. There is no 'one size fits all' approach to marketing. Every business is unique, customers are unique, and your marketing should be as well.</p> -->
+
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+
         </div>
+
       </div>
+
     </section>
+
   </div>
+
+
+
 
 
   <!-- The Band Section -->
+
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+
     <h2 class="w3-wide">One Home, One Dream </h2>
+
     <p class="w3-opacity"><i>Their dreams have turned into nightmares.</i></p>
+
     <p class="w3-justify"> Each of us come from different walks of life. From being first generation American to being an immigrant ourselves. We know the struggle, we have seen the struggle and we are here to tell that story. The story that our parents and family members have faced, the story that people our age and younger face right now. Now it is time for you to listen.</p>
+
     <div class="w3-row w3-padding-32">
+
       <div class="w3-third">
+
         <p>Name</p>
+
         <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+
       </div>
+
       <div class="w3-third">
+
         <p>Name</p>
+
         <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+
       </div>
+
       <div class="w3-third">
+
         <p>Name</p>
+
         <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+
       </div>
+
     </div>
+
   </div>
+
+
+
+
 
 
 
   <!-- The Contact Section -->
+
    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+
     <h2 class="w3-wide w3-center">CONTACT</h2>
+
     <p class="w3-opacity w3-center"></p>
+
     <div class="w3-row w3-padding-32">
+
       <div class="w3-col m6 w3-large w3-margin-bottom">
+
         <i class="contact" style="width:30px"></i> <p>Zafia Ali</p><p> Amelie Cayton</p><p>Megan Chan</p><p> Andrea Rodriguez</p><br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: acayton3802@gmail.com, rodriguezmardrea@gmail.com, warriors.ali.zali@gmail.com, and meganchan31@gmail.com<br>
+
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: <p>acayton3802@gmail.com</p><p> rodriguezmardrea@gmail.com</p><p> warriors.ali.zali@gmail.com</p><p>meganchan31@gmail.com</p><br>
+
       </div>
+
       <div class="w3-col m6">
 
+
+
     </div>
+
   </div>
 
+
+
 <!-- End Page Content -->
+
 </div>
 
 
 
+
+
+
+
 <script>
+
 // Automatic Slideshow - change image every 4 seconds
+
 var myIndex = 0;
+
 carousel();
 
+
+
 function carousel() {
+
     var i;
+
     var x = document.getElementsByClassName("mySlides");
+
     for (i = 0; i < x.length; i++) {
+
        x[i].style.display = "none";
+
     }
+
     myIndex++;
+
     if (myIndex > x.length) {myIndex = 1}
+
     x[myIndex-1].style.display = "block";
+
     setTimeout(carousel, 4000);
+
 }
+
+
 
 // Used to toggle the menu on small screens when clicking on the menu button
+
 function myFunction() {
+
     var x = document.getElementById("navDemo");
+
     if (x.className.indexOf("w3-show") == -1) {
+
         x.className += " w3-show";
+
     } else {
+
         x.className = x.className.replace(" w3-show", "");
+
     }
+
 }
+
+
 
 // When the user clicks anywhere outside of the modal, close it
+
 var modal = document.getElementById('ticketModal');
+
 window.onclick = function(event) {
+
   if (event.target == modal) {
+
     modal.style.display = "none";
+
   }
+
 }
+
 </script>
 
+
+
 </body>
+
 </html>
