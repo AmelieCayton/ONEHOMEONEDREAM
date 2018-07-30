@@ -1,3 +1,4 @@
+
 # ONEHOMEONEDREAM
 
 <!DOCTYPE html>
@@ -17,7 +18,6 @@
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  <link rel="stylesheet" href="scroll-down.css">
- <link rel ="stylesheet" href="final.css">
 
 </head>
 
@@ -31,17 +31,24 @@ body {font-family: "Lato", sans-serif}
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="ms.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MISSION STATEMENT</a>
-    <a href="im.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">IMMIGRATION</a>
-    <a href="homeless.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOMELESSNESS</a>
-    <a href="whatyou.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WHAT YOU CAN DO TO HELP</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MISSION STATEMENT</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">IMMIGRATION</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WHAT YOU CAN DO TO HELP</a>
+    <!--draw panel contact-->
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Reference</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">DACA <i class="fa fa-caret-down"></i></button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="req.html" class="w3-bar-item w3-button">Requirements</a>
-        <a href="trump.html" class="w3-bar-item w3-button">Trump Video</a>
-        <a href="media.html" class="w3-bar-item w3-button">Media</a>
+        <a href="#" class="w3-bar-item w3-button">Requirements</a>
+        <a href="#" class="w3-bar-item w3-button">Trump Video</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
         <!-- We need an extra tab!!! and Resort it -->
       </div>
     </div>
@@ -49,11 +56,14 @@ body {font-family: "Lato", sans-serif}
   </div>
 </div>
 
+</div>
+
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DACA</a>
-  <a href="im.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">IMMIGRATION</a>
-  <a href="whatyou.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WHAT YOU CAN DO TO HELP</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">IMMIGRATION</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOMELESSNESS</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WHAT YOU CAN DO TO HELP</a>
 </div>
 
 <!-- Page content -->
@@ -131,31 +141,18 @@ body {font-family: "Lato", sans-serif}
 
 
   <!-- The Contact Section -->
-  <!-- <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
     <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <p class="w3-opacity w3-center"></p>
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+        <i class="contact" style="width:30px"></i> <p>Zafia Ali</p><p> Amelie Cayton</p><p>Megan Chan</p><p> Andrea Rodriguez</p><br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: acayton3802@gmail.com, rodriguezmardrea@gmail.com, warriors.ali.zali@gmail.com, and meganchan31@gmail.com<br>
       </div>
       <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-            </div>
-          </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
-        </form>
-      </div>
+
     </div>
-  </div> -->
+  </div>
 
 <!-- End Page Content -->
 </div>
