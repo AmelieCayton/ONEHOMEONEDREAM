@@ -1,0 +1,42 @@
+* {
+  box-sizing:border-box;
+  text-align:center;
+}
+
+figure {
+  display:inline-block;
+  vertical-align:top;
+  margin:0px;
+  max-width:920px; /*how wide the image is*/
+  position:relative;
+  overflow:hidden;
+}
+
+img {
+  display:block;
+}
+
+
+/*code for actual caption such as color, margin, etc*/
+.fade figcaption {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  color:white;
+  font-size: 40px;
+  line-height:40px; /*spacing between the lines of the caption*/
+  background: rgba(0,0,0,0);
+}
+
+/*how transparent the image is*/
+.fade figcaption {
+  background: rgba(0,0,0,0.5);
+  opacity:0;
+  transition:opacity 0.5s ease;
+}
+
+.fade figcaption:hover {
+  opacity:1;
+}
