@@ -19,71 +19,82 @@
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  <link rel="stylesheet" href="scroll-down.css">
 
-</head>
 
 
-<style>
-body {font-family: "Lato", sans-serif}
-.mySlides {display: none}
-</style>
 <body>
+  <!-- <style>
+  body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+  </style> -->
+
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="ms.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MISSION STATEMENT</a>
-    <a href="im.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">IMMIGRATION</a>
-    <a href="homeless.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOMELESSNESS</a>
-    <a href="whatyou.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WHAT YOU CAN DO TO HELP</a>
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">DACA <i class="fa fa-caret-down"></i></button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="req.html" class="w3-bar-item w3-button">Requirements</a>
-        <a href="trump.html" class="w3-bar-item w3-button">Trump Video</a>
-        <a href="media.html" class="w3-bar-item w3-button">Media</a>
-        <!-- We need an extra tab!!! and Resort it -->
+  <header>
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="ms.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MISSION STATEMENT</a>
+        <a href="im.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">IMMIGRATION</a>
+        <a href="homeless.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOMELESSNESS</a>
+        <a href="whatyou.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WHAT YOU CAN DO TO HELP</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="More">DACA <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="req.html" class="w3-bar-item w3-button">Requirements</a>
+          <a href="trump.html" class="w3-bar-item w3-button">Trump Video</a>
+          <a href="media.html" class="w3-bar-item w3-button">Media</a>
+          <!-- We need an extra tab!!! and Resort it -->
+        </div>
+      </div>
+      <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
       </div>
     </div>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-  </div>
-</div>
 
-  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DACA</a>
-    <a href="im.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">IMMIGRATION</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOMELESSNESS</a>
-    <a href="whatyou.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WHAT YOU CAN DO TO HELP</a>
-  </div>
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+      <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DACA</a>
+      <a href="im.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">IMMIGRATION</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOMELESSNESS</a>
+      <a href="whatyou.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WHAT YOU CAN DO TO HELP</a>
+    </div>
+  </header>
   <!--pictures with captions that appear when mouse hovers over-->
   <div>
-  <figure class="fade" title="Caption">
-  <img src="https://www.commondreams.org/sites/default/files/users/user20544/screen_shot_2018-07-26_at_1.06.59_pm.jpg" alt="Immigrant children stand up for their rights." />
-  <figcaption>Immigrant children stand up for their rights.</figcaption>
+    <figure>
+      <img src="https://www.commondreams.org/sites/default/files/users/user20544/screen_shot_2018-07-26_at_1.06.59_pm.jpg" alt="Immigrant children stand up for their rights." title="Caption">
+      <figcaption>Immigrant children stand up for their rights.</figcaption>
+    </figure>
   </div>
 
-  <div>
-  <figure class="fade" title="Caption">
-  <img src="https://i.amz.mshcdn.com/jA0gT8W2EHcWeZ0UjG1dmJTwrYE=/fit-in/1200x9600/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F796808%2F15a67ec2-6e17-4404-bfa9-38dea7abe96f.png" alt="There are numerous camps all over the country, and more to come." />
-  <figcaption>There are numerous camps all over the country, and more to come.</figcaption>
-  </div>
 
-  <div>
-  <figure class="fade" title="Caption">
-  <img src= "https://s1.reutersmedia.net/resources/r/?m=02&d=20151120&t=2&i=1096356005&r=LYNXNPEBAJ03A&w=1280 " alt="Girl in need of shelter and security."/>
-  <figcaption>Little girl in need of shelter and security.</figcaption>
-  </div>
+    <div>
+      <figure title= "Caption">
+        <img src="https://i.amz.mshcdn.com/jA0gT8W2EHcWeZ0UjG1dmJTwrYE=/fit-in/1200x9600/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F796808%2F15a67ec2-6e17-4404-bfa9-38dea7abe96f.png" alt="There are numerous camps all over the country, and more to come." />
+        <figcaption>There are numerous camps all over the country, and more to come.</figcaption>
+      </figure>
+    </div>
 
-  <div>
-  <figure class="fade" title="Caption">
-  <iframe src="https://www.google.com/maps/d/embed?mid=15pQS5X6Q0LEB-t4Ih3HDnS45V7k&hl=en_US" width="640" height="480"></iframe>
+    <div>
+      <figure title="Caption">
+        <img src= "https://s1.reutersmedia.net/resources/r/?m=02&d=20151120&t=2&i=1096356005&r=LYNXNPEBAJ03A&w=1280 " alt="Girl in need of shelter and security."/>
+        <figcaption>Little girl in need of shelter and security.</figcaption>
+      </figure>
+      </div>
+
+    <div>
+        <figure title="Caption">
+        <iframe src="https://www.google.com/maps/d/embed?mid=15pQS5X6Q0LEB-t4Ih3HDnS45V7k&hl=en_US" width="640" height="480"></iframe>
+        </figure>
+    </div>
   </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DACA</a>
   <a href="im.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">IMMIGRATION</a>
   <a href="whatyou.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WHAT YOU CAN DO TO HELP</a>
-</div>
+  </div>
+</body>
+</head>
+</html>
