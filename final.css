@@ -33,6 +33,18 @@ p.title2{
   font-size: 20px;
 }
 
+p.tit{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align:center;
+  font-size: 90px;
+}
+
+p.tit2{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align:center;
+  margin-bottom: 150px;
+  font-size: 90px;
+}
 
 
 /*code for actual caption such as color, margin, etc*/
