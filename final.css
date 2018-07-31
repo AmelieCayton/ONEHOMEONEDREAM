@@ -16,6 +16,24 @@ img {
   display:block;
 }
 
+p.title{
+  font-style: italic;
+  text-align:center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+p.title2{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align:center;
+  /* margin-top: 90px; */
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
+  font-size: 20px;
+}
+
+
 
 /*code for actual caption such as color, margin, etc*/
 .fade figcaption {
@@ -29,6 +47,8 @@ img {
   line-height:40px; /*spacing between the lines of the caption*/
   background: rgba(0,0,0,0);
 }
+
+
 
 /*how transparent the image is*/
 .fade figcaption {
