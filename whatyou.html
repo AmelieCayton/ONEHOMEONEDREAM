@@ -1,54 +1,155 @@
-<!DOCTYPE html>
 <html>
-
-
-
-<head>
-<title>One Home One Dream</title>
+<title>One Home One Dream!</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="scroll-down.js"></script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- <link rel="stylesheet" href="scroll-down.css">
-
-</head>
-
+<!-- <link rel="stylesheet" href="image.html"> -->
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
 </style>
 <body>
-
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="ms.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MISSION STATEMENT</a>
-    <a href="im.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">IMMIGRATION</a>
-    <a href="homeless.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOMELESSNESS</a>
-    <a href="whatyou.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WHAT YOU CAN DO TO HELP</a>
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">DACA <i class="fa fa-caret-down"></i></button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="req.html" class="w3-bar-item w3-button">Requirements</a>
-        <a href="trump.html" class="w3-bar-item w3-button">Trump Video</a>
-        <a href="media.html" class="w3-bar-item w3-button">Media</a>
-        <!-- We need an extra tab!!! and Resort it -->
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="ms.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MISSION STATEMENT</a>
+      <a href="im.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">IMMIGRATION</a>
+      <a href="whatyou.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WHAT YOU CAN DO TO HELP</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="More">DACA <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="req.html" class="w3-bar-item w3-button">Requirements</a>
+          <a href="trump.html" class="w3-bar-item w3-button">Trump Video</a>
+          <a href="media.html" class="w3-bar-item w3-button">Media</a>
+          <!-- We need an extra tab!!! and Resort it -->
+        </div>
       </div>
+      <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
     </div>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
-</div>
 
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DACA</a>
-  <a href="im.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">IMMIGRATION</a>
-  <a href="whatyou.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WHAT YOU CAN DO TO HELP</a>
-</div>
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DACA</a>
+    <a href="im.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">IMMIGRATION</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOMELESSNESS</a>
+    <a href="whatyou.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WHAT YOU CAN DO TO HELP</a>
+  </div>
+
+  <head>
+    <link rel="stylesheet" href="image.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .container {
+    position: relative;
+    width: 24.2%;
+  }
+  /* .image {
+    position: fixed;
+  } */
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #A9A9A9;
+  }
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  img {
+      border-radius: 8px;
+  }
+  </style>
+  </style>
+  </head>
+  <body>
+
+  <div class ="row1">
+  <div class="container">
+    <!-- <div class="column"> -->
+  <p><img src="https://s.hdnux.com/photos/73/67/13/15692531/3/920x920.jpg" width="300" height="350" class="image"></p>
+    <div class="overlay">
+      <div class="text">Caption goes here...</div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <!-- <div class="column"> -->
+  <p><img src="https://1qf95e43hn5t3dvchxhlkupz-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/Seasonal-Food-Drive-boy-with-tomatoes.jpg" width="300" height="350" class="image" ></p>
+    <div class="overlay">
+      <div class="text">Caption goes here...</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- <div class="column"> -->
+  <p><img src="https://www.washingtonpost.com/resizer/toJxR8lqQ2FBWaiufwBfSp0mZE4=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HKGSWNCMWEI6RBOBSMTMIUIQGM.jpg" width="300" height="350" class="image" ></p>
+    <div class="overlay">
+      <div class="text">Caption goes here...</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- <div class="column"> -->
+  <p><img src="https://static01.nyt.com/images/2018/06/01/pageoneplus/01a2_itt_nixon-print/merlin_137662263_be159f6a-b421-43c1-bc96-7509f5c32d9e-articleLarge.jpg?quality=75&auto=webp&disable=upscale" width="300" height="350" class="image" ></p>
+    <div class="overlay">
+      <div class="text">Caption goes here...</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- <div class="column"> -->
+  <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ77h0gjISE_n5Wb9Opjd3XUc_sEaptCns0R9Ip3PG057N4Ismcg" width="300" height="350" class="image" ></p>
+    <div class="overlay">
+      <div class="text">Caption goes here...</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- <div class="column"> -->
+  <p><img src="https://cms.qz.com/wp-content/uploads/2018/05/rtx5pbvt-e1526055822758.jpg?quality=80&strip=all&w=4777" width="300" height="350" class="image" ></p>
+    <div class="overlay">
+      <div class="text">Caption goes here...</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- <div class="column"> -->
+  <p><img src="https://s1.reutersmedia.net/resources/r/?m=02&d=20151120&t=2&i=1096356005&r=LYNXNPEBAJ03A&w=1280" width="300" height="350" class="image" ></p>
+    <div class="overlay">
+      <div class="text">Caption goes here...</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- <div class="column"> -->
+  <p><img src="http://thehill.com/sites/default/files/styles/thumb_small_article/public/immigrant_children_1.jpg?itok=4VrS9l-q" width="300" height="350" class="image" ></p>
+    <div class="overlay">
+      <div class="text">Caption goes here...</div>
+    </div>
+  </div>
+  </div
+
+  </body>
+  </html>
