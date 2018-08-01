@@ -127,7 +127,7 @@ img.photo3{
   color:white;
   font-size: 40px;
   line-height:40px; /*spacing between the lines of the caption*/
-  background: rgba(0,0,0,0);
+  background: rgba(128,128,128);
 }
 
 
