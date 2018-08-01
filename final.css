@@ -74,7 +74,7 @@ p.paragraph2{
   margin: 0;
   position: absolute;
   /* top:0px; */
-  /* bottom: 3px; */
+  /* bottom: 0px; */
   right: 16px;
   /* float: right; */
   /* margin-top: 100px;
@@ -90,6 +90,8 @@ p.paragraph3{
   padding: 10px;
   border: 5px hidden;
   margin: 0;
+  bottom:8px;
+  left: 16px;
   /* line-height:1.6; */
   text-align: justify;
   /* margin-top: 100px;
