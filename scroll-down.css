@@ -107,7 +107,7 @@ figure {
 
 /* for trump.html */
 .hello {
-   background-color:#D3D3D3;
+   background-color:#fff;
 }
 .trump{
    color: #000;
@@ -117,6 +117,7 @@ figure {
   color: #fff;
   background-color:#000;
   text-align: center;
+
 
 }
 .quotes1{
