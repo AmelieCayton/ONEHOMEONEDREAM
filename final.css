@@ -48,27 +48,35 @@ p.tit2{
 
 p.paragraph{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  text-align:center;
-  /* margin-top: 100px;
+  /* text-align:left; */
+  line-height:2px;
+  text-align: justify;
+  margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 150px;
-  margin-left: -200px; */
+  margin-left: 50px;
 }
 
 p.paragraph2{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  /* margin-top: 100px;
-  margin-bottom: 75px;
-  margin-right:-175px;
-  margin-left: 80px; */
+  /* text-align:right; */
+  line-height:2px;
+  text-align: justify;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  margin-right: 50px;
+  margin-left: 80px;
 }
 
 p.paragraph3{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  /* margin-top: 100px;
-  margin-bottom: 50px;
+  /* text-align:left; */
+  line-height:2px;
+  text-align: justify;
+  margin-top: 100px;
+  margin-bottom: 30px;
   margin-right: 150px;
-  margin-left: -175px; */
+  margin-left: 50px;
 }
 
 /*code for actual caption such as color, margin, etc*/
