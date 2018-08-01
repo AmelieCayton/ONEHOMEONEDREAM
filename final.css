@@ -73,7 +73,8 @@ p.paragraph2{
   border: 5px hidden;
   margin: 0;
   position: absolute;
-  bottom: 8px;
+  /* top:0px; */
+  /* bottom: 3px; */
   right: 16px;
   /* float: right; */
   /* margin-top: 100px;
