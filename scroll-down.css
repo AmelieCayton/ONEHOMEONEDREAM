@@ -103,3 +103,12 @@ figure {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+.tru {
+   background-color:#D3D3D3;
+}
+.trump{
+   color: black;
+}
+.hello{
+  color: black;
+}
