@@ -104,14 +104,34 @@ figure {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+/* for trump.html */
 .tru {
    background-color:#D3D3D3;
 }
 .trump{
-   color: black;
+   color: #000;
 }
 .hello{
-  color: black;
+  color: #000;
 }
-=======
->>>>>>> 4d6b7a229047d3741a7a3d3c4c93424c4e973ab6
+.quotes{
+  font-size: 30px;
+  color: #fff;
+  background-color:#000;
+  text-align: center;
+
+}
+.quotes1{
+  font-size: 30px;
+  color: #fff;
+  background-color:#000;
+  text-align: center;
+
+}
+.quotes2 {
+  font-size: 30px;
+  color: #fff;
+  background-color:#000;
+  text-align: center;
+}
