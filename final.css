@@ -91,6 +91,26 @@ p.paragraph3{
   /* margin-left: 50px; */
 }
 
+img.photo{
+  margin-top: 100px;
+  margin-bottom: 40px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+img.photo2{
+  margin-top: 100px;
+  margin-bottom: 40px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+img.photo3{
+  margin-top: 100px;
+  margin-bottom: 40px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
 /*code for actual caption such as color, margin, etc*/
 .fade figcaption {
   position:absolute;
