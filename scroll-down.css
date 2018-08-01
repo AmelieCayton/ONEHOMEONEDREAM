@@ -4,7 +4,7 @@
 .intro-type .container {
   padding: 107px 0px 102px 0px !important;
 }
-.company-heading h1 {
+/* .company-heading h1 {
   margin-bottom: 60px;
   padding-bottom: 50px;
   line-height: 80px;
@@ -14,15 +14,15 @@
 }
 .jumbo {
   margin-top: 50px;
-}
-.seo-header, .product-header,
+} */
+/* .seo-header, .product-header,
 .intro-type .container h1.white,
 .company-heading h1 {
   font-weight: 100 !important;
   text-transform: capitalize;
   font-size: 55px;
   margin-bottom: 20px;
-}
+} */
 .parallax {
   background-attachment: inherit !important;
 }
@@ -57,6 +57,7 @@ img,
 figure {
   max-width: 100%;
 }
+<<<<<<< HEAD
 /* Dropdown Button */
 .dropbtn {
     background-color: black;
@@ -112,3 +113,5 @@ figure {
 .hello{
   color: black;
 }
+=======
+>>>>>>> 4d6b7a229047d3741a7a3d3c4c93424c4e973ab6
