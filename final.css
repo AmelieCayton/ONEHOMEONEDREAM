@@ -143,3 +143,8 @@ img.photo3{
 .fade figcaption:hover {
   opacity:1;
 }
+.go{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
