@@ -55,6 +55,8 @@ p.tit2{
   border: 5px hidden;
   margin: 0;
   text-align: justify;
+  position: 0;
+  /* float: left; */
   /* margin-top: 100px;
   margin-bottom: 100px; */
   /* margin-right: 150px; */
@@ -70,6 +72,10 @@ p.paragraph2{
   padding: 10px;
   border: 5px hidden;
   margin: 0;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  /* float: right; */
   /* margin-top: 100px;
   margin-bottom: 40px;
   margin-right: 150px;
