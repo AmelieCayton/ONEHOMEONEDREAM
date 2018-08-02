@@ -14,22 +14,22 @@ figure {
 figure {
   float: left;
   width: 25%;
-  text-align: center;
+  text-align: justify;
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
-  border: thin silver solid;
+  /* border: thin silver solid; */
   margin: 1.5em;
   padding: 0.5em;
 }
-figcaption { 
-  position: absolute; 
-  background: rgba(0,0,0,0.75); 
-  color: white; 
-  padding: 10px 20px; 
+figcaption {
+  position: absolute;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 10px 20px;
 
   opacity: 0;
-  bottom: 0; 
+  bottom: 0;
   left: 0%;
   -webkit-transition: all 0.6s ease;
   -moz-transition:    all 0.6s ease;
@@ -40,9 +40,18 @@ figure:hover figcaption {
   opacity: 1;
   left: 10;
 }
-img {
-  display:block;
+
+.filter-text {
+    text-align: center;
 }
+
+.filter-image {
+    text-align: center;
+}
+
+/* img {
+  display:block;
+} */
 
 p.title{
   font-style: italic;
@@ -99,11 +108,11 @@ p.paragraph2{
   /* line-height:1.6; */
   text-align: justify;
   width: 320px;
-  padding: 10px;
+  padding: 5px;
   border: 5px hidden;
   margin: 0;
   position: absolute;
-  /* top:0px; */
+   top: 50px;
   bottom: 199px;
   right: 16px;
   /* float: right; */
@@ -116,15 +125,16 @@ p.paragraph2{
 p.paragraph3{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   /* text-align:left; */
-  width: 320px;
+  width: 1220px;
   padding: 10px;
-  border: 0px hidden;
+  border: 10px hidden;
   margin: 0;
-  bottom: 0px;
+  bottom: 120px;
   left: 16px;
   position: absolute;
   /* line-height:1.6; */
   text-align: justify;
+  font-size: 30px;
   /* margin-top: 100px;
   margin-bottom: 30px;
   margin-right: 150px; */
