@@ -41,19 +41,19 @@ figure:hover figcaption {
   left: 10;
 }
 
-<<<<<<< HEAD
+
 .filter-text {
     text-align: center;
 }
 
 .filter-image {
     text-align: center;
-=======
+
 
 
 img {
   display:block;
->>>>>>> 065a9f17f1c97a5d76aa1a69b754209fac738cff
+
 }
 
 /* img {
@@ -119,11 +119,11 @@ p.paragraph2{
   border: 5px hidden;
   margin: 0;
   position: absolute;
-<<<<<<< HEAD
+
    top: 50px;
-=======
-   top: 50px; 
->>>>>>> 065a9f17f1c97a5d76aa1a69b754209fac738cff
+
+   top: 50px;
+
   bottom: 199px;
   right: 16px;
   /* float: right; */
@@ -138,11 +138,11 @@ p.paragraph3{
   /* text-align:left; */
   width: 1220px;
   padding: 10px;
-<<<<<<< HEAD
+
   border: 10px hidden;
-=======
+
   border: 5px hidden;
->>>>>>> 065a9f17f1c97a5d76aa1a69b754209fac738cff
+
   margin: 0;
   bottom: 120px;
   left: 16px;
