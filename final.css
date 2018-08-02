@@ -74,7 +74,7 @@ p.tit2{
   font-size: 100px;
 }
 
-.paragraph{
+p.paragraph{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   /* text-align:left; */
   /* line-height:1.6; */
@@ -83,7 +83,9 @@ p.tit2{
   border: 5px hidden;
   margin: 0;
   text-align: justify;
-  position: 0;
+  position: absolute;
+  /* top: 15px; */
+  /* left: 16px; */
   /* float: left; */
   /* margin-top: 100px;
   margin-bottom: 100px; */
@@ -101,7 +103,8 @@ p.paragraph2{
   border: 5px hidden;
   margin: 0;
   position: absolute;
-  bottom: 8px;
+  /* top:0px; */
+  bottom: 199px;
   right: 16px;
   /* float: right; */
   /* margin-top: 100px;
@@ -115,8 +118,11 @@ p.paragraph3{
   /* text-align:left; */
   width: 320px;
   padding: 10px;
-  border: 5px hidden;
+  border: 0px hidden;
   margin: 0;
+  bottom: 0px;
+  left: 16px;
+  position: absolute;
   /* line-height:1.6; */
   text-align: justify;
   /* margin-top: 100px;
@@ -126,24 +132,24 @@ p.paragraph3{
 }
 
 img.photo{
-  margin-top: 100px;
+  /* margin-top: 100px;
   margin-bottom: 40px;
-  margin-right: 150px;
-  margin-left: 80px;
+  margin-right: 150px; */
+  margin-right: 16px;
 }
 
 img.photo2{
-  margin-top: 100px;
-  margin-bottom: 40px;
-  margin-right: 150px;
-  margin-left: 80px;
+  /* margin-top: 100px; */
+  /* margin-bottom: 199px;
+  margin-right: 150px; */
+  margin-left: 16px;
 }
 
 img.photo3{
-  margin-top: 100px;
+  /* margin-top: 100px;
   margin-bottom: 40px;
-  margin-right: 150px;
-  margin-left: 80px;
+  margin-right: 150px; */
+  margin-left: 16px;
 }
 /*code for actual caption such as color, margin, etc*/
 .fade figcaption {
