@@ -11,6 +11,36 @@ figure {
   position:relative;
   overflow:hidden;
 }
+figure {
+  float: left;
+  width: 25%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 1.5em;
+  padding: 0.5em;
+}
+figcaption { 
+  position: absolute; 
+  background: rgba(0,0,0,0.75); 
+  color: white; 
+  padding: 10px 20px; 
+
+  opacity: 0;
+  bottom: 0; 
+  left: 0%;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+  left: 10;
+}
+
 
 img {
   display:block;
@@ -46,7 +76,7 @@ p.tit2{
   font-size: 100px;
 }
 
-.paragraph{
+p.paragraph{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   /* text-align:left; */
   /* line-height:1.6; */
@@ -55,7 +85,9 @@ p.tit2{
   border: 5px hidden;
   margin: 0;
   text-align: justify;
-  position: 0;
+  position: absolute;
+  top: 50px;
+  /* left: 16px; */
   /* float: left; */
   /* margin-top: 100px;
   margin-bottom: 100px; */
@@ -73,7 +105,8 @@ p.paragraph2{
   border: 5px hidden;
   margin: 0;
   position: absolute;
-  bottom: 8px;
+  /* top:0px; */
+  bottom: 199px;
   right: 16px;
   /* float: right; */
   /* margin-top: 100px;
@@ -87,8 +120,11 @@ p.paragraph3{
   /* text-align:left; */
   width: 320px;
   padding: 10px;
-  border: 5px hidden;
+  border: 0px hidden;
   margin: 0;
+  bottom: 0px;
+  left: 16px;
+  position: absolute;
   /* line-height:1.6; */
   text-align: justify;
   /* margin-top: 100px;
@@ -98,24 +134,24 @@ p.paragraph3{
 }
 
 img.photo{
-  margin-top: 100px;
+  /* margin-top: 100px;
   margin-bottom: 40px;
-  margin-right: 150px;
-  margin-left: 80px;
+  margin-right: 150px; */
+  margin-right: 16px;
 }
 
 img.photo2{
-  margin-top: 100px;
-  margin-bottom: 40px;
-  margin-right: 150px;
-  margin-left: 80px;
+  /* margin-top: 100px; */
+  /* margin-bottom: 199px;
+  margin-right: 150px; */
+  margin-left: 16px;
 }
 
 img.photo3{
-  margin-top: 100px;
+  /* margin-top: 100px;
   margin-bottom: 40px;
-  margin-right: 150px;
-  margin-left: 80px;
+  margin-right: 150px; */
+  margin-left: 16px;
 }
 /*code for actual caption such as color, margin, etc*/
 .fade figcaption {
@@ -127,14 +163,14 @@ img.photo3{
   color:white;
   font-size: 40px;
   line-height:40px; /*spacing between the lines of the caption*/
-  background: rgba(0,0,0,0);
+  background: rgba(211,211,211);
 }
 
 
 
 /*how transparent the image is*/
 .fade figcaption {
-  background: rgba(0,0,0,0.5);
+  background: rgba(4,5,6,0.5);
   opacity:0;
   transition:opacity 0.5s ease;
 }
