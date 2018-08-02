@@ -14,22 +14,22 @@ figure {
 figure {
   float: left;
   width: 25%;
-  text-align: justify;
+  text-align: center;
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
-  /* border: thin silver solid; */
+  border: thin silver solid;
   margin: 1.5em;
   padding: 0.5em;
 }
-figcaption {
-  position: absolute;
-  background: rgba(0,0,0,0.75);
-  color: white;
-  padding: 10px 20px;
+figcaption { 
+  position: absolute; 
+  background: rgba(0,0,0,0.75); 
+  color: white; 
+  padding: 10px 20px; 
 
   opacity: 0;
-  bottom: 0;
+  bottom: 0; 
   left: 0%;
   -webkit-transition: all 0.6s ease;
   -moz-transition:    all 0.6s ease;
@@ -42,23 +42,10 @@ figure:hover figcaption {
 }
 
 
-.filter-text {
-    text-align: center;
-}
-
-.filter-image {
-    text-align: center;
-
-
 
 img {
   display:block;
-
 }
-
-/* img {
-  display:block;
-} */
 
 p.title{
   font-style: italic;
@@ -115,15 +102,11 @@ p.paragraph2{
   /* line-height:1.6; */
   text-align: justify;
   width: 320px;
-  padding: 5px;
+  padding: 10px;
   border: 5px hidden;
   margin: 0;
   position: absolute;
-
-   top: 50px;
-
-   top: 50px;
-
+   top: 50px; 
   bottom: 199px;
   right: 16px;
   /* float: right; */
@@ -138,11 +121,7 @@ p.paragraph3{
   /* text-align:left; */
   width: 1220px;
   padding: 10px;
-
-  border: 10px hidden;
-
   border: 5px hidden;
-
   margin: 0;
   bottom: 120px;
   left: 16px;
